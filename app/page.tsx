@@ -11,7 +11,7 @@ export default function Home() {
       <section className="mb-10">
         <h2 className="text-sm text-muted-foreground mb-3">## about</h2>
         <p className="text-sm leading-relaxed">
-          a collective of developers who share an obsession with sneakers. we build things, collect grails, and occasionally argue online that kobe grinches are the goat.
+          a collective of <span className="group/word cursor-pointer"><span className="group-hover/word:hidden">developers</span><span className="hidden group-hover/word:inline">collectors</span></span> who share an obsession with sneakers. we build things, collect grails, and occasionally argue online that kobe grinches are the goat.
         </p>
       </section>
 
