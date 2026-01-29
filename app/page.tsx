@@ -35,22 +35,22 @@ export default function Home() {
         <h2 className="text-sm text-muted-foreground mb-3">## links</h2>
         <ul className="text-sm space-y-1">
           <li>
-            <Link href="https://x.com/sneakerdevs" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
+            <Link href="https://x.com/sneakerdevs" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
               twitter
             </Link>
           </li>
           <li>
-            <Link href="https://github.com/jarrensj" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
+            <Link href="https://github.com/jarrensj" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
               github
             </Link>
           </li>
           <li>
-            <Link href="https://www.instagram.com/sneakerdevs" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
+            <Link href="https://www.instagram.com/sneakerdevs" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
               instagram
             </Link>
           </li>
           <li>
-            <Link href="https://discord.gg/omakase" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
+            <Link href="https://discord.gg/omakase" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
               discord
             </Link>
           </li>
